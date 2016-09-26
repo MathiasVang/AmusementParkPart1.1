@@ -23,8 +23,8 @@
 		1F8B5F631D92D423004A379F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B5F611D92D423004A379F /* Main.storyboard */; };
 		1F8B5F651D92D423004A379F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B5F641D92D423004A379F /* Assets.xcassets */; };
 		1F8B5F681D92D423004A379F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B5F661D92D423004A379F /* LaunchScreen.storyboard */; };
-		D6AF8DFB1D99247E00375A8A /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6AF8DFA1D99247E00375A8A /* AccessDenied.wav */; };
-		D6AF8DFD1D99248600375A8A /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6AF8DFC1D99248600375A8A /* AccessGranted.wav */; };
+		D6AF8E001D99282D00375A8A /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6AF8DFE1D99282D00375A8A /* AccessDenied.wav */; };
+		D6AF8E011D99282D00375A8A /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6AF8DFF1D99282D00375A8A /* AccessGranted.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		1F8B5F641D92D423004A379F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8B5F671D92D423004A379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F8B5F691D92D423004A379F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6AF8DFA1D99247E00375A8A /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AccessDenied.wav; path = ../../AudioFiles/AccessDenied.wav; sourceTree = "<group>"; };
-		D6AF8DFC1D99248600375A8A /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AccessGranted.wav; path = ../../AudioFiles/AccessGranted.wav; sourceTree = "<group>"; };
+		D6AF8DFE1D99282D00375A8A /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AccessDenied.wav; path = Assets.xcassets/AudioFiles/AccessDenied.wav; sourceTree = "<group>"; };
+		D6AF8DFF1D99282D00375A8A /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AccessGranted.wav; path = Assets.xcassets/AudioFiles/AccessGranted.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 		1F8B5F6F1D92D443004A379F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				D6AF8DFA1D99247E00375A8A /* AccessDenied.wav */,
-				D6AF8DFC1D99248600375A8A /* AccessGranted.wav */,
+				D6AF8DFE1D99282D00375A8A /* AccessDenied.wav */,
+				D6AF8DFF1D99282D00375A8A /* AccessGranted.wav */,
 				1F1D90A11D9428D800021FA6 /* SoundMethod.swift */,
 			);
 			name = Sounds;
@@ -196,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8B5F681D92D423004A379F /* LaunchScreen.storyboard in Resources */,
-				D6AF8DFB1D99247E00375A8A /* AccessDenied.wav in Resources */,
-				D6AF8DFD1D99248600375A8A /* AccessGranted.wav in Resources */,
+				D6AF8E001D99282D00375A8A /* AccessDenied.wav in Resources */,
+				D6AF8E011D99282D00375A8A /* AccessGranted.wav in Resources */,
 				1F8B5F651D92D423004A379F /* Assets.xcassets in Resources */,
 				1F8B5F631D92D423004A379F /* Main.storyboard in Resources */,
 			);
